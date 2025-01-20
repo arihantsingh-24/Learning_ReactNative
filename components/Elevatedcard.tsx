@@ -13,7 +13,7 @@ export default function Elevatedcard() {
             <Text>me</Text>
         </View>
         <View style={[styles.card, styles.cardElevated]}>
-            <Text>tp</Text>
+            <Text>to</Text>
         </View>
         <View style={[styles.card, styles.cardElevated]}>
             <Text>scroll</Text>
