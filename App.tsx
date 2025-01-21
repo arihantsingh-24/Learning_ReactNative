@@ -1,10 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from "react";
 
 import { SafeAreaView, ScrollView } from "react-native";
@@ -14,16 +7,13 @@ import Elevatedcard from "./components/Elevatedcard";
 import FancyCard from "./components/FancyCard";
 import ActionCard from "./components/ActionCard";
 import ContactList from "./components/ContactList";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView>
-        <Flatcard />
-        <Elevatedcard />
-        <FancyCard />
-        <ActionCard />
-        <ContactList />
+        <PasswordGenerator/>
       </ScrollView>
     </SafeAreaView>
   );
